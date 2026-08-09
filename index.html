@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialHub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="blob blob-one"></div>
+    <div class="blob blob-two"></div>
+
+    <header>
+        <h2 class="logo">Social<span>Hub</span></h2>
+        <nav class="navigation">
+            <a href="#home" class="active">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+        <i class="fa-solid fa-bars menu-toggle"></i>
+    </header>
+
+    <main class="hero" id="home">
+        <p class="eyebrow">for people who show up</p>
+        <h1>Where your circle<br>actually talks.</h1>
+        <p class="hero-sub">No feeds engineered to keep you scrolling. Just the people you follow, the things they share, and a quieter way to stay close.</p>
+        <button class="btnLogin-popup hero-cta">Join SocialHub</button>
+    </main>
+
+    <section class="gallery" id="gallery">
+        <p class="eyebrow center">shared this week</p>
+        <h2 class="section-title">Gallery</h2>
+        <p class="section-sub">Moments your circle posted recently — no algorithm deciding what you see first.</p>
+        <div class="gallery-grid">
+            <figure class="gallery-item span-2">
+                <img src="https://picsum.photos/id/1015/800/600" alt="River winding through a green valley" loading="lazy">
+                <figcaption>Weekend hike, posted by Mara</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="https://picsum.photos/id/1025/500/500" alt="Dog sitting on a wooden porch" loading="lazy">
+                <figcaption>New rescue pup 🐾</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="https://picsum.photos/id/1035/500/500" alt="Misty mountain forest" loading="lazy">
+                <figcaption>Morning fog, Cedar Ridge</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="https://picsum.photos/id/1050/500/500" alt="Close up of a coffee cup on a table" loading="lazy">
+                <figcaption>Sunday coffee ritual</figcaption>
+            </figure>
+            <figure class="gallery-item span-2">
+                <img src="https://picsum.photos/id/1062/800/600" alt="Friends gathered around a table" loading="lazy">
+                <figcaption>Game night crew</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="https://picsum.photos/id/1074/500/500" alt="Sunset over the ocean" loading="lazy">
+                <figcaption>Golden hour at the coast</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-text">
+            <p class="eyebrow">about socialhub</p>
+            <h2 class="section-title">Built for circles, not crowds</h2>
+            <p>SocialHub started as a small project between friends who were tired of feeds built to maximize time-on-app instead of time-well-spent. There's no ad-driven ranking here — posts show up in the order your circle shared them.</p>
+            <p>Every account is invite-first: you build your circle deliberately, and your posts stay visible only to the people you've actually chosen to share them with.</p>
+            <div class="about-stats">
+                <div class="stat">
+                    <span class="stat-number">40K+</span>
+                    <span class="stat-label">Active circles</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">2M+</span>
+                    <span class="stat-label">Moments shared</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">0</span>
+                    <span class="stat-label">Ads in your feed</span>
+                </div>
+            </div>
+        </div>
+        <div class="about-media">
+            <img src="https://picsum.photos/id/1011/700/800" alt="Group of friends laughing together outdoors" loading="lazy">
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <p class="eyebrow center">what you get</p>
+        <h2 class="section-title center">Services</h2>
+        <p class="section-sub center">Everything you need to stay close to the people who matter, nothing you don't.</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-users"></i></div>
+                <h3>Private Circles</h3>
+                <p>Group friends and family into circles so the right post reaches the right people, automatically.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-images"></i></div>
+                <h3>Shared Albums</h3>
+                <p>Collaborative photo albums that update in real time when anyone in the circle adds a moment.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-comments"></i></div>
+                <h3>Group Chats</h3>
+                <p>Threaded conversations tied to posts, so replies never get lost in a flat comment feed.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-shield-heart"></i></div>
+                <h3>Privacy Controls</h3>
+                <p>Granular sharing settings per post, per circle — nothing defaults to public.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-bell-slash"></i></div>
+                <h3>Calm Notifications</h3>
+                <p>A digest instead of a firehose. You choose when SocialHub interrupts your day.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fa-solid fa-calendar-days"></i></div>
+                <h3>Circle Events</h3>
+                <p>Plan meetups and gatherings with your circle without leaving the app.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer" id="contact">
+        <div class="footer-content">
+            <h2 class="logo">Social<span>Hub</span></h2>
+            <p>Have a question? Reach us at <a href="mailto:hello@socialhub.example">hello@socialhub.example</a></p>
+            <div class="footer-socials">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <p class="footer-copy">&copy; 2026 SocialHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <i class="fa-solid fa-xmark"></i>
+        </span>
+
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Remember Me</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-user"></i></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Agree to the terms and conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
